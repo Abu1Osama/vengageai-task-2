@@ -1,0 +1,38 @@
+
+.calendar {
+    display: grid;
+    grid-template-columns:30% 68%;
+    gap: 15px;
+    width: 60%;
+    padding: 15px;
+  }
+  
+  .day {
+    padding: 8px;
+    border: 1px solid #e41616;
+    text-align: center;
+  
+    &.available {
+      background-color: #aaffaa;
+    
+    }
+  
+    &.unavailable {
+      background-color: #3b7ca4;
+    }
+  
+    &.two-hours {
+      background-color: #3498db; /* Blue color for 2-hour slots */
+    }
+    .ok{
+        background: #000;
+    }
+   
+  }
+  .selected-date-info{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 10px;
+    color: white;
+}
+  
