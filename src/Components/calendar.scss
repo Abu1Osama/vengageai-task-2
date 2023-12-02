@@ -36,3 +36,18 @@
     color: white;
 }
   
+
+@media (max-width: 768px) {
+  .calendar{
+    grid-template-columns: 100%;
+    width: 100%;
+    padding: 0;
+    justify-content: center;
+  }
+.selected-date-info{
+  grid-template-columns: 47% 47%;
+}
+.calendar-left{
+  margin: auto;
+}
+}
